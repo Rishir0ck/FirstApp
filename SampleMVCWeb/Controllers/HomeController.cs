@@ -28,4 +28,31 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+    public ViewResult Details()
+    {
+        //String string Data
+        ViewData["Title"] = "Student Details Page"; 
+        ViewData["Header"] = "Student Details"; 
+
+        Student student = new Student()
+        {
+            StudentId = 101,
+            Name = "James",
+            Branch = "CSE",
+            Section = "A",
+            Gender = "Male"
+        };
+        //storing student data
+        ViewData["Student"] = student;
+
+        return View();
+
+    }
+
+
+
+
+
+
 }
