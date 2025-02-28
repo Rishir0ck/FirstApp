@@ -13,11 +13,6 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
     public IActionResult Privacy()
     {
         return View();
@@ -29,28 +24,17 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public ViewResult Details()
+   public ActionResult Index()
     {
-        //USing ViewBag to pass data from controller to view
-        ViewBag.Title = "Student Details Page";
-
-        //Using ViewData to pass data from controller to view
-        ViewData["Header"] = "Student Details";  
-
-        //Cretaing an object of Student class
-        Student student = new Student()
-        {
-            StudentId = 101,
-            Name = "James",
-            Branch = "CSE",
-            Section = "A",
-            Gender = "Male"
-        };
-        
-        return View(student);
-
+        TempData["Name"] = "Rishi";
+        TempData["Age"] = "22";
+        return View();
     }
 
+    public ActionResult About()
+    {
+        return View();
+    }
 
 
 
