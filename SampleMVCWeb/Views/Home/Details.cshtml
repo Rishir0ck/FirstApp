@@ -1,28 +1,28 @@
 @{
     Layout = null;
-    var student = ViewBag.Student;
 }
 <!DOCTYPE html>
+@model SampleMVCWeb.Models.Student
 <html>
 <head>
     <title>@ViewBag.title</title>
 </head>
 <body>
-    <h1>@ViewBag.Header</h1>
+    <h1>@ViewData["Header"]</h1>
 <div>
-    Student ID: @student?.StudentId
+    Student ID: @Model?.StudentId
 </div>
 <div>
-    Name: @student?.Name
+    Name: @Model?.Name
 </div>
 <div>
-    Branch: @student?.Branch
+    Branch: @Model?.Branch
 </div>
 <div>
-    Section: @student?.Section
+    Section: @Model?.Section
 </div>
 <div>
-    Gender: @student?.Gender
+    Gender: @Model?.Gender
 </div>
 
 </body>

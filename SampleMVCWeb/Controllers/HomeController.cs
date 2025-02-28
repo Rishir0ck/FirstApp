@@ -31,9 +31,13 @@ public class HomeController : Controller
 
     public ViewResult Details()
     {
+        //USing ViewBag to pass data from controller to view
         ViewBag.Title = "Student Details Page";
-        ViewBag.Header = "Student Details";  
 
+        //Using ViewData to pass data from controller to view
+        ViewData["Header"] = "Student Details";  
+
+        //Cretaing an object of Student class
         Student student = new Student()
         {
             StudentId = 101,
@@ -43,9 +47,7 @@ public class HomeController : Controller
             Gender = "Male"
         };
         
-        ViewBag.Student = student;
-
-        return View();
+        return View(student);
 
     }
 
