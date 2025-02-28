@@ -52,6 +52,11 @@ public class StudentRepository : IStudentRepository
         
     }
 
+    public List<Student> GetAllStudents()
+    {
+        return DataSource();
+    }
+
     public Student GetStudentById(int studentId)
     {
        return DataSource().FirstOrDefault(x => x.StudentId == studentId) ?? new Student();  

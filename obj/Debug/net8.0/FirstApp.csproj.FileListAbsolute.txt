@@ -28,3 +28,4 @@ D:\Rishi Practice\Core Practice\Tutorial\FirstApp\obj\Debug\net8.0\refint\FirstA
 D:\Rishi Practice\Core Practice\Tutorial\FirstApp\obj\Debug\net8.0\FirstApp.pdb
 D:\Rishi Practice\Core Practice\Tutorial\FirstApp\obj\Debug\net8.0\FirstApp.genruntimeconfig.cache
 D:\Rishi Practice\Core Practice\Tutorial\FirstApp\obj\Debug\net8.0\ref\FirstApp.dll
+D:\Rishi Practice\Core Practice\Tutorial\FirstApp\obj\Debug\net8.0\FirstApp.sourcelink.json

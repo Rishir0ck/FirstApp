@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FirstApp.Models;
+using Microsoft.AspNetCore.Authentication;
 
 namespace FirstApp.Controllers;
 
@@ -29,8 +30,33 @@ public class HomeController : Controller
     //     return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     // }
 
-    public ViewResult Index()
+    // public ViewResult Index()
+    // {
+    //     return View();
+    // }
+
+    //Create an instance of the repository
+    private readonly IStudentRepository? _repository = null;
+
+    //Initialize the repository in the constructor
+    public HomeController(IStudentRepository repository)
     {
-        return View();
+        _repository = repository;
     }
+
+    public JsonResult Index()
+    {
+        List<Student>? allStudentDetails = _repository?.GetAllStudents();
+        return Json(allStudentDetails);
+    }
+
+    public JsonResult GetStudentDetails(int id)
+    {
+        Student? studentDetails = _repository?.GetStudentById(id);
+        return Json(studentDetails);
+    }
+
+
+
+
 }

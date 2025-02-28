@@ -1,3 +1,5 @@
+using FirstApp.Models;
+
 namespace FirstCoreWebApplication
 {
     public class Program
@@ -7,6 +9,8 @@ namespace FirstCoreWebApplication
             var builder = WebApplication.CreateBuilder(args);
           
             builder.Services.AddMvc();
+            //Application services
+            builder.Services.AddSingleton<IStudentRepository,StudentRepository>();
           
             var app = builder.Build();
             
@@ -32,6 +36,16 @@ namespace FirstCoreWebApplication
 
             //This will Run the Application
             app.Run();
+
+            //Add application services.
+            // builder.Services.Add(new ServiceDescriptor(typeof(IStudentRepository), new StudentRepository()));//by default singleton
+            // builder.Services.Add(new ServiceDescriptor(typeof(IStudentRepository), typeof(StudentRepository),ServiceLifetime.Singleton));//singleton
+            // builder.Services.Add(new ServiceDescriptor(typeof(IStudentRepository), typeof(StudentRepository),ServiceLifetime.Transient));//Transient
+            // builder.Services.Add(new ServiceDescriptor(typeof(IStudentRepository), typeof(StudentRepository),ServiceLifetime.Scoped));//Scoped
+            
+
+
+
         }
     }
 }
