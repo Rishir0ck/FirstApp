@@ -31,9 +31,8 @@ public class HomeController : Controller
 
     public ViewResult Details()
     {
-        //String string Data
-        ViewData["Title"] = "Student Details Page"; 
-        ViewData["Header"] = "Student Details"; 
+        ViewBag.Title = "Student Details Page";
+        ViewBag.Header = "Student Details";  
 
         Student student = new Student()
         {
@@ -43,8 +42,8 @@ public class HomeController : Controller
             Section = "A",
             Gender = "Male"
         };
-        //storing student data
-        ViewData["Student"] = student;
+        
+        ViewBag.Student = student;
 
         return View();
 

@@ -1,15 +1,14 @@
-@{Layout = null;}
+@{
+    Layout = null;
+    var student = ViewBag.Student;
+}
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewData["Title"]</title>
+    <title>@ViewBag.title</title>
 </head>
 <body>
-    <h1>@ViewData["Header"]</h1>
-    @{
-        var student = ViewData["Student"] as Student;
-    }
+    <h1>@ViewBag.Header</h1>
 <div>
     Student ID: @student?.StudentId
 </div>
