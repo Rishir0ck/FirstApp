@@ -1,9 +1,24 @@
 using System;
 using System.Linq;
+using System.IO;
 namespace FirstApp.Models;
 
 public class StudentRepository : IStudentRepository
 {
+    //When a new instance of StudentRepository is created,
+    //we need to log the Date and time into a text file
+    //using the constructor
+    public StudentRepository()
+    {
+        string filePath = @"D:\Rishi Practice\Core Practice\Tutorial\FirstApp\Log\Log.txt";
+        string contentToWrite = $"StudentRepository instance created at : {DateTime.Now}";
+
+        using (StreamWriter writer = new StreamWriter(filePath, true))
+        {
+            writer.WriteLine(contentToWrite);
+        }
+    }   
+
     public List<Student> DataSource()
     {
         return new List<Student>

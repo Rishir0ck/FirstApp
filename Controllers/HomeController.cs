@@ -7,41 +7,16 @@ namespace FirstApp.Controllers;
 
 public class HomeController : Controller
 {
-    // private readonly ILogger<HomeController> _logger;
-
-    // public HomeController(ILogger<HomeController> logger)
-    // {
-    //     _logger = logger;
-    // }
-
-    // public IActionResult Index()
-    // {
-    //     return View();
-    // }
-
-    // public IActionResult Privacy()
-    // {
-    //     return View();
-    // }
-
-    // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    // public IActionResult Error()
-    // {
-    //     return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    // }
-
-    // public ViewResult Index()
-    // {
-    //     return View();
-    // }
-
-    //Create an instance of the repository
+    //create a referance variable of IStudentRepository
     private readonly IStudentRepository? _repository = null;
+    private readonly SomeOtherService? _someOtherService = null;
 
+    
     //Initialize the repository in the constructor
-    public HomeController(IStudentRepository repository)
+    public HomeController(IStudentRepository repository, SomeOtherService someOtherService)
     {
         _repository = repository;
+        _someOtherService = someOtherService;
     }
 
     public JsonResult Index()
@@ -50,9 +25,9 @@ public class HomeController : Controller
         return Json(allStudentDetails);
     }
 
-    public JsonResult GetStudentDetails(int id)
+    public JsonResult GetStudentDetails(int Id)
     {
-        Student? studentDetails = _repository?.GetStudentById(id);
+        Student? studentDetails = _repository?.GetStudentById(Id);
         return Json(studentDetails);
     }
 

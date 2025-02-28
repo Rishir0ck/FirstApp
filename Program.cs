@@ -11,6 +11,7 @@ namespace FirstCoreWebApplication
             builder.Services.AddMvc();
             //Application services
             builder.Services.AddSingleton<IStudentRepository,StudentRepository>();
+            builder.Services.AddSingleton<SomeOtherService>();
           
             var app = builder.Build();
             
