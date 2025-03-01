@@ -5,9 +5,9 @@ namespace RoutingASPDotNetCoreMVC.Controllers
     public class StudentController : Controller
     {
         // GET: StudentController
-        public string Index(string id)
+        public string Index()
         {
-            return $"Index({id}) Action Method of StudentController";
+            return $"Index() Action Method of StudentController";
         }
         public string Details(string id)
         {

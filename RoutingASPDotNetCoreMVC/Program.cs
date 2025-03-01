@@ -1,3 +1,5 @@
+using RoutingASPDotNetCoreMVC.Models;
+
 public partial class Program
 {
     public static void Main(string[] args)
@@ -6,6 +8,11 @@ public partial class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+
+        builder.Services.Configure<RouteOptions>(options =>
+        {
+            options.ConstraintMap.Add("alphanumeric", typeof(AlphaNumericConstraint));
+        });
 
         var app = builder.Build();
 
@@ -24,21 +31,9 @@ public partial class Program
 
         app.UseAuthorization();
 
-        app.MapControllerRoute(
-            name: "StudentAll",
-            pattern: "StudentAll/All",
-            defaults: new { controller = "Student", action = "Index" }
-        );  
-
-        app.MapControllerRoute(
-                name: "StudentIndex",
-                pattern: "StudentDetails/{ID}",
-                defaults: new { controller = "Student", action = "Details" }
-            );
-
          app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller}/{action}/{id:int?}",
+                name: "CustomRoute",
+                pattern: "{controller}/{action}/{id:alphanumeric?}",
                 defaults: new { controller = "Home", action = "Index" }
             );
 
