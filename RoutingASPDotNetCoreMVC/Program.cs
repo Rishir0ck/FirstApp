@@ -32,7 +32,7 @@ public partial class Program
         app.UseAuthorization();
 
          app.MapControllerRoute(
-                name: "CustomRoute",
+                name: "default",
                 pattern: "{controller}/{action}/{id:alphanumeric?}",
                 defaults: new { controller = "Home", action = "Index" }
             );

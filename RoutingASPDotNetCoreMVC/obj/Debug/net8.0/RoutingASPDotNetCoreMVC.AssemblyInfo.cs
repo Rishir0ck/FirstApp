@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoutingASPDotNetCoreMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+676c06e77a9887cb0e04b5ed24582dbf2679db8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c09553f877b8e70f03d5d22c206aa16664100d1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoutingASPDotNetCoreMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoutingASPDotNetCoreMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

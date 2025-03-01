@@ -13,10 +13,13 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+     [Route("")]
+        [Route("Home")]
+        [Route("Home/Index")]
+        public string Index()
+        {
+            return "Index() Action Method of HomeController";
+        }
 
     public IActionResult Privacy()
     {
@@ -29,10 +32,13 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public ViewResult Details(int id)
-    {
-        return View();
+    [Route("Home/Details/{id}")]
+        public string Details(int id)
+        {
+            return "Details() Action Method of HomeController, ID Value = " + id;
+        }
 
-    }
+
+    
 }
 
