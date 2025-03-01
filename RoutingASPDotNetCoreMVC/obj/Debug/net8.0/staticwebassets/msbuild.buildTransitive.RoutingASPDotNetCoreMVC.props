@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RoutingASPDotNetCoreMVC.props" />
+</Project>

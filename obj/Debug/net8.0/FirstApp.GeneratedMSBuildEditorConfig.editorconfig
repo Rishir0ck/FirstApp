@@ -18,6 +18,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Rishi Practice\Core Practice\Tutorial\FirstApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Rishi Practice/Core Practice/Tutorial/FirstApp/SampleMVCWeb/Views/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = U2FtcGxlTVZDV2ViXFZpZXdzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -81,6 +105,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Rishi Practice/Core Practice/Tutorial/FirstApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jjdx8s3tav
 
 [D:/Rishi Practice/Core Practice/Tutorial/FirstApp/SampleMVCWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = U2FtcGxlTVZDV2ViXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
