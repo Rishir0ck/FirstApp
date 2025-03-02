@@ -1,4 +1,4 @@
-using System.Diagnostics;
+ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RoutingASPDotNetCoreMVC.Models;
 
@@ -19,5 +19,7 @@ public class HomeController : Controller
     {
         return "Details() Action Method of HomeController";
     }
+
+//comment for check we can use mobile for coding
     
 }
