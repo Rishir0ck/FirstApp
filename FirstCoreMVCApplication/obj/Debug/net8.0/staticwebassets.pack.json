@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Rishi Practice\\Core Practice\\Tutorial\\FirstApp\\FirstCoreMVCApplication\\wwwroot\\js\\CustomJavaScript.js",
+      "PackagePath": "staticwebassets\\js\\CustomJavaScript.js"
+    },
+    {
       "Id": "D:\\Rishi Practice\\Core Practice\\Tutorial\\FirstApp\\FirstCoreMVCApplication\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

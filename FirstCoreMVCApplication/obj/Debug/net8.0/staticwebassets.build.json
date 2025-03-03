@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3EfsCGaspJsg/XdR2+d+QdzRS+w4vJwuMMtqCz1MQjU=",
+  "Hash": "fMq4EyVa1xPDGzKehLJ0/nXJ4uBbX6gpa7ZDxfNYnQM=",
   "Source": "FirstCoreMVCApplication",
   "BasePath": "_content/FirstCoreMVCApplication",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Rishi Practice\\Core Practice\\Tutorial\\FirstApp\\FirstCoreMVCApplication\\wwwroot\\js\\CustomJavaScript.js",
+      "SourceId": "FirstCoreMVCApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rishi Practice\\Core Practice\\Tutorial\\FirstApp\\FirstCoreMVCApplication\\wwwroot\\",
+      "BasePath": "_content/FirstCoreMVCApplication",
+      "RelativePath": "js/CustomJavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\CustomJavaScript.js"
     },
     {
       "Identity": "D:\\Rishi Practice\\Core Practice\\Tutorial\\FirstApp\\FirstCoreMVCApplication\\wwwroot\\js\\site.js",
