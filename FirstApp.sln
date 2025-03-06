@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingASPDotNetCoreMVC", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstCoreMVCApplication", "FirstCoreMVCApplication\FirstCoreMVCApplication.csproj", "{FBDFF2DA-6A56-4A2A-9F87-3C8877541725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromQueryAttributeDemo", "FromQueryAttributeDemo\FromQueryAttributeDemo.csproj", "{487BEDBC-3E93-40DC-B6FB-4F4F2537258B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{FBDFF2DA-6A56-4A2A-9F87-3C8877541725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBDFF2DA-6A56-4A2A-9F87-3C8877541725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDFF2DA-6A56-4A2A-9F87-3C8877541725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487BEDBC-3E93-40DC-B6FB-4F4F2537258B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487BEDBC-3E93-40DC-B6FB-4F4F2537258B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487BEDBC-3E93-40DC-B6FB-4F4F2537258B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487BEDBC-3E93-40DC-B6FB-4F4F2537258B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
