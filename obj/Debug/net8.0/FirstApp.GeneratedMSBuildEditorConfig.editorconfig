@@ -74,6 +74,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = RnJvbVF1ZXJ5QXR0cmlidXRlRGVtb1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -169,6 +193,10 @@ build_metadata.AdditionalFiles.CssScope = b-lxvn0p8j2p
 [D:/Rishi Practice/Core Practice/Tutorial/FirstApp/FromQueryAttributeDemo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RnJvbVF1ZXJ5QXR0cmlidXRlRGVtb1xWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-p29426kj83
+
+[D:/Rishi Practice/Core Practice/Tutorial/FirstApp/ModelBinding/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxCaW5kaW5nXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-jhh89hhwpu
 
 [D:/Rishi Practice/Core Practice/Tutorial/FirstApp/RoutingASPDotNetCoreMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Um91dGluZ0FTUERvdE5ldENvcmVNVkNcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
